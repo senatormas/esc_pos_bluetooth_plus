@@ -1,23 +1,22 @@
 name: blue
 description: A new Flutter project.
 version: 1.0.0+1
+publish_to: none
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.17.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.3
   oktoast: ^3.0.0
-  image: ^3.0.2
-  esc_pos_bluetooth:
+  image: ^4.5.3
+  esc_pos_bluetooth_plus:
     path: ../../
-  esc_pos_utils: ^1.1.0
-  # esc_pos_utils:
-  # path: ../../../esc_pos_utils
+  esc_pos_utils_plus: ^2.0.1+6
   charset_converter: ^2.0.0
-  intl: ^0.17.0
+  intl: ^0.20.2
   qr_flutter: ^4.0.0
   path_provider: ^2.0.2
 

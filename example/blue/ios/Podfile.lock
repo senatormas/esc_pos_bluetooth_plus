@@ -4,17 +4,15 @@ PODS:
   - Flutter (1.0.0)
   - flutter_bluetooth_basic (0.0.1):
     - Flutter
-  - path_provider (0.0.1):
+  - path_provider_foundation (0.0.1):
     - Flutter
-  - path_provider_macos (0.0.1):
-    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - charset_converter (from `.symlinks/plugins/charset_converter/ios`)
   - Flutter (from `Flutter`)
   - flutter_bluetooth_basic (from `.symlinks/plugins/flutter_bluetooth_basic/ios`)
-  - path_provider (from `.symlinks/plugins/path_provider/ios`)
-  - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
 
 EXTERNAL SOURCES:
   charset_converter:
@@ -23,18 +21,15 @@ EXTERNAL SOURCES:
     :path: Flutter
   flutter_bluetooth_basic:
     :path: ".symlinks/plugins/flutter_bluetooth_basic/ios"
-  path_provider:
-    :path: ".symlinks/plugins/path_provider/ios"
-  path_provider_macos:
-    :path: ".symlinks/plugins/path_provider_macos/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
 
 SPEC CHECKSUMS:
-  charset_converter: 215c7b04932ec2b9ba43be96a9bc34afed3e5322
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_bluetooth_basic: 0e4e27e22b50b3a25cc1d1e131953feb4af414f4
-  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
-  path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+  charset_converter: 82bc1d2e3c70dcb51bf769e9772e3ae5b2571695
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_bluetooth_basic: 0b5a7ff38766503fc8d2cb4380c1ceda051c7b79
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
 
-PODFILE CHECKSUM: ae34db30f861e93537b77c454f870f0f18e8deef
+PODFILE CHECKSUM: 1a782344d33c12ced0182eeab11e8668d253eb48
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.16.2

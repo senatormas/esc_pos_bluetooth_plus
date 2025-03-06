@@ -1,16 +1,16 @@
 /*
- * esc_pos_bluetooth
+ * esc_pos_bluetooth_plus
  * Created by Andrey Ushakov
+ * Further modified by Emmanuel Tarimo for Dart 3.6.1 compatibility, 2025
  * 
- * Copyright (c) 2019-2020. All rights reserved.
+ * Copyright (c) 2020. All rights reserved.
+ * Copyright (c) 2025. All rights reserved
  * See LICENSE for distribution and usage details.
  */
 
 import 'dart:async';
 import 'dart:io';
-import 'package:esc_pos_utils/esc_pos_utils.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:flutter_bluetooth_basic/flutter_bluetooth_basic.dart';
 import './enums.dart';
 
 /// Bluetooth printer

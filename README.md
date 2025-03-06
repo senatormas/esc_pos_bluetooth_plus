@@ -1,4 +1,4 @@
-# esc_pos_bluetooth
+# esc_pos_bluetooth_plus
 
 [![Pub Version](https://img.shields.io/pub/v/esc_pos_bluetooth)](https://pub.dev/packages/esc_pos_bluetooth)
 
